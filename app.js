@@ -10,6 +10,5 @@ app.get('/health', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  throw new Error();
-  // console.log(`server started on port ${PORT}`);
+  console.log(`server started on port ${PORT}`);
 });
